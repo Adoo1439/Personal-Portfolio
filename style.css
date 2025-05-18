@@ -1,4 +1,17 @@
-.body {
-    display: grid;
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: rgb(226, 168, 168);
+}
+#home-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
+#title{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
