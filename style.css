@@ -1,8 +1,13 @@
+body {
+    display: grid;
+    grid-template-columns: 804px;
+    grid-template-rows: 50px 50px 100px;
+}
 nav {
     display: flex;
     flex-direction: row;
     gap: 5px;
-    background-color: rgb(226, 168, 168);
+    background-color: rgb(80, 99, 114);
     justify-content: space-around;
     align-items: center;
     flex: 1;
@@ -19,45 +24,44 @@ nav {
     font-size: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(90, 94, 94);
-    padding: 0;
-    margin-bottom: 0;
+    background-color: rgb(97, 130, 130);
+    border: 2px solid black;
 }
 
 .overall-container {
     display: grid;
+    width: 800px;
     grid-template-rows: 200px 200px;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: 250px 276px 270px;
     background-color: black;
-    gap: 5px;
+    gap: 2px;
+    margin: 0;
+    border: 2px solid black;
 }
 
 #projects {
     grid-area: 1 / 1 / 3 / 2;
-    background-color: rgb(203, 179, 143);
+    background-color: rgb(165, 158, 147);
 }
 
 #experience {
     grid-area: 1 / 2 / 2 / 3;
-    background-color: rgb(203, 179, 143); 
+    background-color: rgb(165, 158, 147);
 }
 
 #education {
-    background-color: rgb(203, 179, 143);
+    background-color: rgb(165, 158, 147);
     grid-area: 1 / 3 /3 / 4;
 }
 #opensource {
     grid-area: 2 / 2 / 3 / 3;
-    background-color: rgb(203, 179, 143);
+    background-color: rgb(165, 158, 147);
 }
  h3 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
  }
- p {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
- }
+
  h5 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
