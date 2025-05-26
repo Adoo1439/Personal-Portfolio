@@ -97,3 +97,25 @@ nav {
     font-size: 15px;
     text-align: center;
 }
+
+@media (max-width: 680px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .overall-container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .reviewed {
+        display: flex;
+        flex-direction: column;
+    }
+}
